@@ -1,0 +1,56 @@
+html * {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	vertical-align:top;
+	font-family:sans-serif;
+	font-size: 1em;
+}
+
+#full-calc {
+	width: 480px;
+	height:600px;
+	padding: 1px 0;
+	margin:100px auto;
+	box-shadow:0px 0px 2px 2px #333;
+	background-color: #333;
+
+
+}
+
+#screen {
+	width: 84%;
+	height:115px;
+	box-shadow:0px 0px 2px 2px #333 inset;
+	margin: 20px auto 10px auto;
+	background-color: #888;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-size:3em;
+	color:#FFF;
+}
+
+
+#inputs {
+	margin:0 auto;
+	width:85%;
+
+}
+
+input {
+	height:78px;
+	width:90px;
+	margin:4px;
+	box-shadow:0 0 3px 1px black inset;
+	border:0;
+}
+
+input[value="="] {
+	width: 97%;
+}
+
+input:active {
+	box-shadow:0 0 3px 1px red inset;
+	color:red;
+}
